@@ -16,9 +16,13 @@ namespace GSPITestTasks.Tasks
             originalArray = InitArray();
         }
 
+        /// <summary>
+        /// Групирует и ищет дубли в массиве.
+        /// </summary>
+        /// <returns></returns>
         public int GetFirstDuplicateItem()
         {
-            var arrGroup = iput.GroupBy(x => x).Where(y => y.Count() > 1);
+            var arrGroup = originalArray.GroupBy(x => x).Where(y => y.Count() > 1);
 
             return arrGroup.First().First();
         }
