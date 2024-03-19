@@ -1,3 +1,4 @@
+using GSPITestTasks.Tasks;
 
 
 
@@ -14,7 +15,11 @@ namespace GSPITestTasksTest
         [Test]
         public void CountNormalSubstringsTest()
         {
-            Assert.Pass();
+            string testData = "aacaba";
+
+            int result = Task2.CountNormalSubstrings(testData);
+
+            Assert.IsTrue(result == 2);
         }
     }
 }

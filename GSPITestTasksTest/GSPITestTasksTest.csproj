@@ -17,4 +17,12 @@
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="TasksTest\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GSPITestTasks\GSPITestTasks.csproj" />
+  </ItemGroup>
+
 </Project>

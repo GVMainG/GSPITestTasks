@@ -16,7 +16,7 @@ namespace GSPITestTasks.Tasks
     /// aacab – a(3 – 1)
     /// Итого 2 нормальных разбиения В скобках указано количество уникальных символов в каждой подстроке
     /// </summary>
-    internal static class Task2
+    public static class Task2
     {
         /// <summary>
         /// Метод для тестового задания.
