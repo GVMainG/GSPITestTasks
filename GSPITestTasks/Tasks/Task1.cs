@@ -7,7 +7,7 @@ namespace GSPITestTasks.Tasks
     /// В массиве содержатся все числа от 1 до 100, причем одно из них встречается дважды. Напишите метод, 
     /// принимающий указанный массив, который вернет дублирующийся элемент.
     /// </summary>
-    internal class Task1
+    public class Task1
     {
         public int[] originalArray;
 
